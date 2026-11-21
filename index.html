@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campus Intern | Internship Management</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <aside class="sidebar">
+      <div class="brand"><span class="brand-mark">CI</span><div><b>Campus Intern</b><small>INTERNSHIP PORTAL</small></div></div>
+      <div class="profile-mini"><div class="avatar" id="avatar">ST</div><div><b id="sideName">Student User</b><small id="sideRole">Student</small></div></div>
+      <nav id="nav"></nav>
+      <div class="side-bottom"><div class="help-card"><b>Need a hand?</b><p>Visit your placement cell for support with applications.</p></div><button class="nav-link" id="logoutBtn">↪ &nbsp; Sign out</button></div>
+    </aside>
+    <main class="main">
+      <header class="topbar"><div><div class="eyebrow" id="pageEyebrow">STUDENT WORKSPACE</div><h1 id="pageTitle">Overview</h1></div><div class="top-actions"><span class="today" id="today"></span><button class="icon-btn" id="quickProfile" title="Profile">♙</button></div></header>
+      <section id="content"></section>
+      <footer>Campus Intern <span>•</span> Campus Internship Management System</footer>
+    </main>
+  </div>
+  <div id="toast" class="toast"></div>
+  <div id="modalRoot"></div>
+  <script src="app.js"></script>
+</body>
+</html>

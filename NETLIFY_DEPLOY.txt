@@ -1,0 +1,10 @@
+PUBLISH CAMPUS INTERN WEBSITE
+
+1. Extract Campus_Intern_Website.zip.
+2. Make sure index.html, styles.css, and app.js are in the same folder.
+3. Open https://app.netlify.com/drop
+4. Sign in/create an account following the service's age rules (ask a parent/guardian if needed).
+5. Drag the extracted Campus_Intern_Website folder onto the page.
+6. Open the website URL Netlify gives you.
+
+NOTE: This publishes the frontend demo only. It uses browser-local storage and is not yet connected to the advanced backend. Do not enter real student personal data. The role selector is not secure authentication.
